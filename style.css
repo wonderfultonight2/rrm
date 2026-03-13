@@ -257,67 +257,8 @@ object-fit: cover;
     flex-direction: column;
 }
 
-/* @media (max-width: 456px ){
-    nav{
-        display: none;
+ @media (max-width: 767px ){
+    .container{
+        padding: 10px;
     }
-} */
- 
-@media (max-width: 480px) {
-    header {
-        flex-direction: column;
-        padding: 0.5rem;
-    }
-
-    .header-body {
-        flex-direction: column;
-        gap: 10px;
-        width: 100%;
-    }
-
-    .home .home-body .content1 {
-        width: 90%;
-        height: auto;
-        text-align: center;
-    }
-
-    .home .home-body .content1 h1 {
-        font-size: 2rem;
-    }
-
-    .abouts {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .about-img img {
-        width: 200px;
-        height: 200px;
-    }
-
-    .product-container {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    .product img {
-        width: 120px;
-        height: 120px;
-    }
-
-    .header-body img {
-        width: 40px;
-        height: 40px;
-    }
-
-    .header-body button {
-        width: 100px;
-        padding: 0.3rem;
-    }
-
-    .navbar ul {
-        flex-direction: column;
-        gap: 10px;
-        text-align: center;
-    }
-}
+} 
