@@ -263,85 +263,61 @@ object-fit: cover;
     }
 } */
  
-@media (max-width: 1024px) {
-    header .header-body {
+@media (max-width: 480px) {
+    header {
         flex-direction: column;
-        align-items: center;
-        gap: 15px;
+        padding: 0.5rem;
     }
 
-    nav.navbar ul {
+    .header-body {
         flex-direction: column;
         gap: 10px;
+        width: 100%;
+    }
+
+    .home .home-body .content1 {
+        width: 90%;
+        height: auto;
+        text-align: center;
     }
 
     .home .home-body .content1 h1 {
         font-size: 2rem;
     }
 
-    .about-img {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
+    .abouts {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about-img img {
+        width: 200px;
+        height: 200px;
     }
 
     .product-container {
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        flex-direction: column;
         gap: 15px;
-    }
-}
-
-/* Mobile phones */
-@media (max-width: 768px) {
-    header button {
-        width: 100%;
-    }
-
-    nav.navbar ul {
-        gap: 8px;
-        text-align: center;
-    }
-
-    .home .home-body .content1 h1 {
-        font-size: 1.5rem;
-    }
-
-    .home .home-body .content1 p {
-        font-size: 0.9rem;
-        padding: 0 10px;
-    }
-
-    .about-content {
-        text-align: center;
-    }
-
-    .product-container {
-        grid-template-columns: 1fr;
-        gap: 10px;
-    }
-}
-
-/* Small phones */
-@media (max-width: 480px) 
-{}
-    header h3 {
-        font-size: 1.2rem;
-    }
-
-    header button {
-        font-size: 0.9rem;
-        padding: 8px 10px;
-    }
-
-    .home .home-body .content1 h1 {
-        font-size: 1.2rem;
-    }
-
-    .home .home-body .content1 p {
-        font-size: 0.8rem;
     }
 
     .product img {
+        width: 120px;
         height: 120px;
     }
+
+    .header-body img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .header-body button {
+        width: 100px;
+        padding: 0.3rem;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+}
