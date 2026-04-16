@@ -216,11 +216,11 @@
      display: flex;
      align-items: center;
      justify-content: space-between;
-     padding: 2rem 1rem;
      width: 100%;
      max-width: 90%;
      flex-wrap: wrap;
      gap: 30px;
+     padding: 1rem;
  }
 
  .about-content {
@@ -233,6 +233,54 @@
      flex: 1;
      min-width: 250px;
  }
+
+ .mission-vision {
+width: 100%;
+max-width: 800px;
+  background-color: #0f1c2e; /* same dark blue vibe */
+  color: #ffffff;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 32px;
+  margin-bottom: 40px;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+}
+
+.mv-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 1em;
+}
+
+.mv-card {
+  background: #16263d; /* slightly lighter than background */
+  padding: 25px;
+  border-radius: 12px;
+  width: 320px;
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.mv-card:hover {
+  transform: translateY(-5px);
+}
+
+.mv-card h3 {
+  color: #ff4d4d; /* same red as your Sign Up button */
+  margin-bottom: 15px;
+}
+
+.mv-card p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #dcdcdc;
+}
 
  .sectiontitle {
      display: flex;
